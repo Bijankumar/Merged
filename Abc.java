@@ -1,6 +1,6 @@
 class Abc
 {
-static void add()
+String add()
 {
   int a = 10;
   int b = 20;
@@ -9,6 +9,7 @@ static void add()
 }
   public static void main (String[]args)
   {
-    int x = add();
+    Abc a1 = new Abc();
+    a1.add();
   }
 }
