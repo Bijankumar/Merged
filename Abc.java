@@ -1,6 +1,6 @@
 class Abc
 {
-static void add()
+static void add(int a,int b)
 {
   int a = 10;
   int b = 20;
